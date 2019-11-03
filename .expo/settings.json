@@ -1,0 +1,8 @@
+{
+  "urlRandomness": "mg-dga",
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "https": false
+}

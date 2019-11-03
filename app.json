@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Dispatch Driver",
+    "slug": "dispatch-driver",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16BCF8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.blinklabs.dispatchdriver",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAHLaTY_1Q0qC0SWRBciE6f0ITtTW5BxbY"
+      }
+    },
+    "android": {
+      "package": "com.blinklabs.dispatchdriver",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC-PwM6vlwZYQ4fe6mPUaDlm-7OK2Rt_SY"
+        }
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content"
+    },
+    "description": ""
+  }
+}
